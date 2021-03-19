@@ -1,2 +1,3 @@
 # Aula sobre Git e Git Hub
-print(f'Teste')
+# Na aula vimos os como criar conta e repositório.
+# Também vimos como utilizar push, pull, add, etc.
