@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/POOP7.iml" filepath="$PROJECT_DIR$/.idea/POOP7.iml" />
+      <module fileurl="file://$USER_HOME$/Envs/ifce/.idea/ifce.iml" filepath="$USER_HOME$/Envs/ifce/.idea/ifce.iml" />
     </modules>
   </component>
 </project>
