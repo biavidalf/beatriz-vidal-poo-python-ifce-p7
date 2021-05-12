@@ -21,7 +21,7 @@ tipo = ''
 
 if lados[0] == lados[1] and lados[1] == lados[2]:
     tipo = 'equilátero'
-elif lados[0] != lados[1] and lados[1] != lados[2]:
+elif lados[0] != lados[1] and lados[1] != lados[2] and lados[0] != lados[2]:
     tipo = 'escaleno'
 else:
     tipo = 'isósceles'
