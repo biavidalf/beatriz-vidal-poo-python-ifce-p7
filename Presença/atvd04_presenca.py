@@ -1,5 +1,5 @@
 """
-    ATIVIDADE 03 - PRESENÇA: POO - P7 DE INFO - BEATRIZ V.
+    ATIVIDADE 04 - PRESENÇA: POO - P7 DE INFO - BEATRIZ V.
 
     ENUNCIADO: O triângulo pode ser classificado com base no comprimento de
     seus lados em equilátero, isósceles ou escaleno. Todos os três lados de um
