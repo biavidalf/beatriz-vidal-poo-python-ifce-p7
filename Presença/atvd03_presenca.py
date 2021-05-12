@@ -1,5 +1,5 @@
 """
-    ATIVIDADE 02 - PRESENÇA: POO - P7 DE INFO - BEATRIZ V.
+    ATIVIDADE 03 - PRESENÇA: POO - P7 DE INFO - BEATRIZ V.
 
     ENUNCIADO: Para ganhar o prêmio máximo na Mega Sena, é necessário
     acertar todos os 6 números em seu bilhete com os 6 números entre 1 e 60
