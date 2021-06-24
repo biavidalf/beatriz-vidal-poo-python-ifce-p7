@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ super() }} - Sign in{% endblock %}
+
+{% block content %}
+<div id="principal">
+    <div id="postagens">
+
+        <div class="postagem">
+                <form action="" method="POST">
+                    {{ form.csrf_token }}
+                    <div>
+                        <label>Campo antigo</label>
+                        {{ form.antigo(placeholder="antigo") }}
+                    </div>
+                    <div>
+                        <label>Campo novo</label>
+                        {{ form.novo(placeholder="novo") }}
+                    </div>
+                    <button type="submit">Enviar</button>
+                </form>
+        </div>
+
+    </div>
+
+</div>
+{% endblock %}

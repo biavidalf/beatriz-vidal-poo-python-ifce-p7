@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ super() }} - Sign up{% endblock %}
+
+{% block content %}
+<div id="principal">
+    <div id="postagens">
+
+        <div class="postagem">
+                <form action="" method="POST">
+                    {{ form.csrf_token }}
+                    <div>
+                        <label>Nome</label>
+                        {{ form.nome(placeholder="Nome Cliente") }}
+                    </div>
+                    <div>
+                        <label>Email</label>
+                        {{ form.email(placeholder="usuario@gmail.com") }}
+                    </div>
+                    <div>
+                        <label>CPF/CNPJ</label>
+                        {{ form.email(placeholder="000") }}
+                    </div>
+                    <div>
+                        <label>Senha</label>
+                        {{ form.senha(placeholder="******") }}
+                    </div>
+                    <button type="submit">Enviar</button>
+                </form>
+        </div>
+
+    </div>
+
+</div>
+{% endblock %}

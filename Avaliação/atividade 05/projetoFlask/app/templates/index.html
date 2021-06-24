@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ super() }} - Home{% endblock %}
+
+{% block content %}
+
+<div id="principal">
+    <div id="postagens">
+
+        <div class="postagem">
+            <h2><span class="titulo">Atividade 5 de POO</span></h2>
+            <span class="data-postagem">Entregue em 25.06.2021</span>
+            <img src="../static/imagens/flask.PNG" width="580" class="borda">
+            Atividade com o intuito de pratiacar os conhecimentos adquiridos durante o semestre
+            acerca de Python, Flask e a ORM SQL Alchemy.
+        </div>
+        <br>
+        <div class="postagem">
+            <h2><span class="titulo">O que foi feito na atividade?</span></h2>
+            <span class="data-postagem">Entregue em 25.06.2021</span>
+            <img src="../static/imagens/atvd.PNG" width="580" class="borda">
+            Como pedido, utilizei as rotas para manipular (CRUD) meu Clientes.
+            <br>
+            Programa é composto por uma tela de home (index), registro e login.
+        </div>
+        <br>
+
+    </div>
+
+</div>
+{% endblock %}

@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ super() }} - Sign in{% endblock %}
+
+{% block content %}
+<div id="principal">
+    <div id="postagens">
+
+        <div class="postagem">
+            <h2><span class="titulo">Clientes cadastrados:</span></h2>
+            <ul>
+            {% for message in messages %}
+                <li>{{ cliente.get_cnpjcpf() }}: {{ cliente.get_nome() }}</li>
+            {% endfor %}
+            </ul>
+        </div>
+        <div class="postagem">
+            <h2><span class="titulo">Alterar dados:</span></h2>
+            <ul>
+                <li><a href="{{ url_for('atualizar') }}">Atualizar dados</a></li>
+                <li><a href="{{ url_for('deletar') }}">Deletar dados</a></li>
+            </ul>
+        </div>
+        <br>
+
+    </div>
+
+</div>
+{% endblock %}

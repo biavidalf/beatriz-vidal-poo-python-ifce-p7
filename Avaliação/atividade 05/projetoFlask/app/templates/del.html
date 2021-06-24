@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ super() }} - Deletar{% endblock %}
+
+{% block content %}
+<div id="principal">
+    <div id="postagens">
+
+        <div class="postagem">
+                <form action="" method="POST">
+                    {{ form.csrf_token }}
+                    <div>
+                        <label>Conta para deletar (e-mail)</label>
+                        {{ form.email(placeholder="usuario@gmail.com") }}
+                    </div>
+                    <div>
+                        <label>Senha</label>
+                        {{ form.senha(placeholder="******") }}
+                    </div>
+                    <button type="submit">Deletar</button>
+                </form>
+        </div>
+
+    </div>
+
+</div>
+{% endblock %}
